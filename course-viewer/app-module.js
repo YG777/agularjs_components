@@ -1,5 +1,5 @@
 (function() {
-    'use strict';
-    var appModule = angular.module('courseViewer', []);
+  'use strict';
+  var appModule = angular.module('courseViewer', []);
 })();
 
