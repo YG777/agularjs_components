@@ -1,15 +1,14 @@
-(function() {
+(function () {
   'use strict';
   angular.module('courseViewer').component('courseList', {
-    controllerAs: vm,
-    controller: function() {
+    controllerAs: 'vm',
+    controller: function () {
       var vm = this;
-      //add $oninit hook
-      vm.$oninit = function() {
-        vm.courseId = 200; //random sample
-      };
+
+      vm.$onInit = function () {
+        vm.courseId = 200; // just a sample
+      }
     },
     templateUrl: 'course-viewer/course/course-list.component.html'
   });
 })();
-
